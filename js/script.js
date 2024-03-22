@@ -16,7 +16,7 @@ document.querySelector("#search-button").onclick = (e) => {
 };
 
 // Klik di luar elemen
-const mn = document.querySelector("#menu");
+const mn = document.querySelector("#Menu");
 const sb = document.querySelector("#search-button");
 
 document.addEventListener("click", function (e) {
