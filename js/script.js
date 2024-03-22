@@ -20,11 +20,11 @@ const mn = document.querySelector("#menu");
 const sb = document.querySelector("#search-button");
 
 document.addEventListener("click", function (e) {
-  if (!Mn.contains(e.target) && !navbarNav.contains(e.target)) {
+  if (!mn.contains(e.target) && !navbarNav.contains(e.target)) {
     navbarNav.classList.remove("active");
   }
 
-  if (!Sb.contains(e.target) && !searchForm.contains(e.target)) {
+  if (!sb.contains(e.target) && !searchForm.contains(e.target)) {
     searchForm.classList.remove("active");
   }
 });
